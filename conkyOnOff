@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#	Copyright (C) Alain Di Chiappari
+
+#	This program is free software; you can redistribute it and/or modify
+#	it under the terms of the GNU General Public License as published by
+#	the Free Software Foundation; either version 2 of the License, or
+#	(at your option) any later version.
+
+#########################################################################
+# Author 	: Alain Di Chiappari
+# Date 		: 25/03/2012
+# License	: GNU v2 General Public License
+# Email		: alain.dichiappari@gmail.com
+# Info License	: http://www.gnu.org/licenses/
+#########################################################################
+
+if [[ -z `ps aux | awk '{print $11}' | egrep '^conky$'` ]]; then conky; else killall conky; fi
+

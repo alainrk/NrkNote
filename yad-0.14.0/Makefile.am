@@ -1,0 +1,15 @@
+
+SUBDIRS = \
+	src	\
+	po	\
+	data
+
+EXTRA_DIST = \
+	COPYING			\
+	ChangeLog		\
+	NEWS			\
+	README			\
+	AUTHORS
+
+DISTCLEANFILES =
+

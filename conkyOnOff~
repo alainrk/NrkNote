@@ -1,0 +1,4 @@
+#!/bin/bash
+
+if [[ -z `ps aux | awk '{print $11}' | egrep '^conky$'` ]]; then conky; else killall conky; fi
+
