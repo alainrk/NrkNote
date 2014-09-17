@@ -20,7 +20,7 @@
 * Author 	: Alain Di Chiappari
 * Date 		: 25/03/2012
 * License	: GNU v2 General Public License
-* Email		: alain.dichiappari@gmail.com
+* Email		: alain.dichiappari [at] gmail [dot] com
 * Info License	: http://www.gnu.org/licenses/
 **********************************************************************/
 
